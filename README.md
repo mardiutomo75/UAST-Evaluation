@@ -445,3 +445,4 @@ Example request body:
 - [CodeXGLUE](https://github.com/microsoft/CodeXGLUE), Microsoft.
 - [HumanEval-X / CodeGeeX](https://github.com/THUDM/CodeGeeX).
 - Utomo, M. S., Utami, E., Kusrini, K., and Setyanto, A., “Enhancing CodeXGLUE Dataset with Unified Abstract Syntax Tree (AST) Representation for Cross-Language Code Analysis,” *Jurnal Teknologi Informasi dan Ilmu Komputer*, vol. 12, no. 5, pp. 1037–1046, Nov. 2025, doi: [10.25126/jtiik.2025125](https://doi.org/10.25126/jtiik.2025125).
+- M. S. Utomo, E. Utami, and A. Setyanto, “[Evaluating Cross-Language Structural Generalization of the Unified Abstract Syntax Tree](https://ejournal.pnc.ac.id/index.php/jinita/article/view/3191),” *J. Innov. Inf. Technol. Appl.*, vol. 8, no. 1, pp. 225–235, Jun. 2026. doi: [10.35970/jinita.v8i1.3191](https://doi.org/10.35970/jinita.v8i1.3191).
