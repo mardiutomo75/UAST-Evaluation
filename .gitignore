@@ -1,0 +1,79 @@
+# -----------------------------------------------------------------------------
+# Research workspace artifacts
+# Keep the executable Python pipeline, its supporting modules, and SQL schema
+# files trackable. Ignore generated data, reports, temporary files, and local
+# tooling configuration.
+# -----------------------------------------------------------------------------
+
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Jupyter notebooks and generated notebook checkpoints
+*.ipynb
+.ipynb_checkpoints/
+
+# Local IDE / assistant configuration
+.claude/
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Local database and generated database exports
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+*.backup
+*.bak
+
+# Logs, profiling files, and temporary runtime output
+*.log
+*.out
+*.tmp
+*.temp
+*.prof
+*.profraw
+*.pstats
+*.pid
+tmp/
+temp/
+cache/
+logs/
+outputs/
+results/
+artifacts/
+
+# Generated experiment exports and model/cache directories
+predictions/
+checkpoints/
+models/
+hf_cache/
+transformers_cache/
+nltk_data/
+
+# Manuscript/reviewer artifacts (not required to execute the Python pipeline)
+*.docx
+*.pdf
+analysis_*.md
+revisi.MD
+comment_beyond.txt
+beyond_task_driven_v42.txt
+
+# Archived/scratch source copies that are not part of the active pipeline
+constant-old.py
+parserfunc-old.py
+Untitled*.ipynb
+
+# Keep the reproducible schema and active research documentation visible.
+!create_table.sql
+!README.md
